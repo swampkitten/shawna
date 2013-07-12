@@ -42,6 +42,7 @@ h2 {
 	margin-left:auto;
 	margin-right: auto;
 	margin-top:200px;
+	color:#1ab7ea;
 }
 #header * {
 	float:left;
@@ -49,21 +50,55 @@ h2 {
 
 #main-container {
 }	
+#find-me{
+	text-align:center;
+
+}
 #facebook {
-	color:blue;
-	font-size:30px;
+	color:#3a5898;
+	font-size:20px;
 	display:inline;
+	text-align:center;
+		border:2px dotted green;
+	font-size:30px;
+	background-color:rgba(255,0,0,0.3);
+	border-radius:15px	;
+	padding:10px 30px;
+
+}
+#facebook:hover {
+	background-color:#fff;
+	font-family:Verdana;
+}
+#facebook a {
+	text-decoration:none;
+}
+#or {
+	text-align:center;
 }
 #twitter {
 	color:#1ab7ea;
 	font-size:20px;
 	display:inline;
+		border:2px dotted green;
+	font-size:30px;
+	background-color:rgba(255,0,0,0.3);
+	border-radius:15px	;
+	padding:10px 30px;
+}
+#twitter:hover {
+	background-color:#fff;
+	font-family:Verdana;
+}
+#twitter a {
+	text-decoration:none;
 }
 #or-email-me {
 	font-size:20px;
+	text-align:center;
 }
 #box {
-	border: 4px solid teal;
+	border: 4px solid #59E817;
 	border-radius:15px	;
 	margin:auto;
 	font-size:40px;
@@ -76,26 +111,20 @@ h2 {
 #email {
 	border:2px dotted green;
 	font-size:30px;
-	background-color:rgba(255,0,0,0.2);
+	background-color:rgba(255,0,0,0.3);
 	border-radius:15px	;
-	padding:10px 30px;
+	padding:10px 200px;
 }
 #email:hover {
 	background-color:#fff;
+	font-family:Verdana;
 }
 #email a {
 	text-decoration:none;
-	padding-right:300px;
+	padding-right:200px;
 }
 #email a:link{
 	color:#348017;
-}
-#email:hover a{
-	font-family:Verdana;
-}	
-
-a:visited{
-	color:teal;
 }
 
 </style>
@@ -109,28 +138,31 @@ a:visited{
 		
 <div id="main-container">
 	<div id="header">
-		<h1>Shawna Bradley</h1>
+		<h1 style="color:#59E817">Shawna Bradley</h1>
 		<h2>Web Designer</h2>
 		<br clear="all"/>
 	</div>
 
 	<br clear="all"/>
 	<div id="box"/>
-		Find me on <div id="facebook">Facebook</div> or <div id="twitter">Twitter</div>
+		<div id="find-me"
+			>Find me on
+		</div>
+			<div id="facebook"
+			><a href="https://www.facebook.com/angela.paige95">Facebook</a>
+			</div> 
+				<div id="or"
+				> or
+				</div> 
+				<div id="twitter">
+				Twitter
+				</div>
 		<br>
-		<span id="or-email-me">Or email me at:</span>
+		<div id="or-email-me">Or email me at:</div>
 		<div id="email">
 			<a href="http://yahoo.com/mail" style="text-size:10px"/style>angela_baby96@yahoo.com</a>
 		</div>
 	</div>
-
-	
-
-	<div class="button button-tile" networkcode="twitter">
-        <div title="Twitter" class="button-tile-overlay"></div>
-            <img src="http://files.widgetbox.com/getwidget/tiles/twitter.gif" alt="Twitter">
-        </div>
-
 	</div>
 </div>		
 		
